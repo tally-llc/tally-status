@@ -1,16 +1,14 @@
-name: Deploy to Cloudflare Pages
+ name: Deploy to Cloudflare Pages
 
 on:
   push:
-    branches: [master, gh-pages]
+    branches: [gh-pages]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: gh-pages
 
       - name: Create Cloudflare Pages project
         uses: cloudflare/wrangler-action@v3
