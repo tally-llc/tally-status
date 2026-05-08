@@ -14,10 +14,9 @@ status-website:
   publish: true
   cname: status.tally.llc
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/tally-llc/tally-status/master/static/img/icon.svg
-  name: Tally
+  name: Tally Status
   css: "footer { display: none; }"
-  js: "document.querySelector('.navbar-brand').href = 'https://tally.llc';"
+  js: "document.querySelector('a.logo').href = 'https://tally.llc';"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
