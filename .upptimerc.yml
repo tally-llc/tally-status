@@ -19,10 +19,8 @@ status-website:
   introTitle: "**Tally** LLC formation, bank accounts, and compliance, all through a single API."
   introMessage: This is the official status page [https://tally.llc](https://tally.llc).
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Visit Tally
+      href: https://tally.llc
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
