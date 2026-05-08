@@ -5,6 +5,8 @@ repo: tally-status # The name of this repository
 sites:
   - name: Tally
     url: https://tally.llc
+     headers:
+        - "Authorization: Basic $TALLY_AUTH"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
