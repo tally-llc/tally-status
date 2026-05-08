@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
 
       - name: Create Cloudflare Pages project
         uses: cloudflare/wrangler-action@v3
