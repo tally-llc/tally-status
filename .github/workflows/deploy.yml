@@ -2,21 +2,22 @@ name: Deploy to Cloudflare Pages
 
 on:
   push:
-    branches: [master, gh-pages]
+    branches: [gh-pages]
+  workflow_run:
+    workflows: ["Static Site CI", "Setup CI"]
+    types: [completed]
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v4
-
-      - name: Create Cloudflare Pages project
-        uses: cloudflare/wrangler-action@v3
-        continue-on-error: true
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages project create tally-status --production-branch=gh-pages
+          ref: gh-pages
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
