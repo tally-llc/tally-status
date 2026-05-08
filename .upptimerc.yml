@@ -16,8 +16,6 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/tally-llc/tally-status/master/static/img/icon.svg
   name: Tally
-  introTitle: "**Tally** LLC formation, bank accounts, and compliance, all through a single API."
-  introMessage: This is the official status page [https://tally.llc](https://tally.llc).
   css: "footer { display: none; }"
   js: "document.querySelector('.navbar-brand').href = 'https://tally.llc';"
 
