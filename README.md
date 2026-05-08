@@ -2,7 +2,7 @@ Tally Status
 
 <!--start: description-->
 
-**Upptime** (https://upptime.js.org) is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages.
+**Upptime** (https://upptime.js.org) is the open-source status page used for monitoring [https://tally.llc](https://tally.llc).
 
 > I find Upptime an incredible clever usage of \[GitHub Actions]. You essentially get a free configurable uptime monitor for whatever you want. – [CSS Tricks](https://css-tricks.com/upptime/)
 
