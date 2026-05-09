@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 556,
-    "timeDay": 556,
-    "timeWeek": 556,
-    "timeMonth": 556,
-    "timeYear": 556,
+    "time": 490,
+    "timeDay": 490,
+    "timeWeek": 490,
+    "timeMonth": 490,
+    "timeYear": 490,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.tally.llc.ico",
     "slug": "tally-app",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "0.05%",
+    "uptimeDay": "0.05%",
+    "uptimeWeek": "0.05%",
+    "uptimeMonth": "0.05%",
+    "uptimeYear": "0.05%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-09": 174,
+      "2026-05-08": 455
+    }
   }
 ]
